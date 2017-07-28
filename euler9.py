@@ -17,7 +17,4 @@ for a in range(1, n):
 
 for triple in triples:
     if sum(triple) == 1000:
-        print(triple)
-
-# finding the product of this tuple
-print(200 * 375 * 425)
+        print(triple[0] * triple[1] * triple[2])
